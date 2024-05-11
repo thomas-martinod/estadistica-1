@@ -1,6 +1,7 @@
 # Punto 5
 # Intervalo de Confianza
 
+set.seed(73)
 nx = 84
 ny = 75
 X = 10
