@@ -26,7 +26,7 @@ alpha_exp = nRejected / m
 alpha_exp
 
 # Valores p
-hist(vps)
+hist(vps, freq=FALSE)
 
 # Tercera parte
 nu_values = 1:3
@@ -47,3 +47,7 @@ for (nu in nu_values) {
 }
 
 rejected_values
+
+rejected_values/m
+
+
